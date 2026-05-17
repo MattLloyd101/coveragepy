@@ -20,8 +20,12 @@ upgrading your version of coverage.py.
     ..  Version 9.8.1 — 2027-07-27
     ..  --------------------------
 
-Unreleased
-----------
+.. start-releases
+
+.. _changes_7-14-1:
+
+Version 7.14.1 — 2026-05-17
+---------------------------
 
 - Fix: the HTML report used typographic niceties to make file paths more
   readable by adding a small amount of space around slashes. Those spaces
@@ -35,8 +39,6 @@ Unreleased
 .. _issue 2170: https://github.com/coveragepy/coveragepy/issues/2170
 .. _hugo-316: https://mastodon.social/@hugovk/116588523571204490
 
-
-.. start-releases
 
 .. _changes_7-14-0:
 
