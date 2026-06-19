@@ -32,9 +32,12 @@ Unreleased
   that id.  Pre-allocated ids don't really make sense, so now we search for a
   usable one instead. Fixes `issue 2187`_.
 
+- Following `the advice of cibuildwheel <no-13t_>`_, we no longer distribute
+  wheels for Python 3.13 free-threaded.
+
 .. _issue 2187: https://github.com/coveragepy/coveragepy/issues/2187
 .. _issue 2197: https://github.com/coveragepy/coveragepy/issues/2197
-
+.. _no-13t: https://py-free-threading.github.io/ci/#building-free-threaded-wheels-with-cibuildwheel
 
 .. start-releases
 
